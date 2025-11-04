@@ -5,6 +5,8 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import Link from "next/link"
 
+export const dynamic = 'force-dynamic'
+
 export default function SignInPage() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-slate-50 to-white dark:from-slate-950 dark:to-slate-900">
@@ -43,7 +45,7 @@ export default function SignInPage() {
           </Button>
 
           <div className="text-center text-sm text-muted-foreground">
-            Don't have an account?{" "}
+            Don&apos;t have an account?{" "}
             <Link href="/sign-up" className="underline underline-offset-4 hover:text-primary">
               Sign up
             </Link>

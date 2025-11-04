@@ -8,6 +8,8 @@ import { Label } from "@/components/ui/label"
 import { CheckCircle2, Loader2 } from "lucide-react"
 import { useToast } from "@/components/ui/use-toast"
 
+export const dynamic = 'force-dynamic'
+
 export default function WaitlistPage() {
   const [email, setEmail] = useState("")
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -70,9 +72,9 @@ export default function WaitlistPage() {
             {isSubmitted ? (
               <div className="flex flex-col items-center justify-center py-8 space-y-4">
                 <CheckCircle2 className="h-16 w-16 text-green-600" />
-                <h3 className="text-2xl font-semibold">You're on the list!</h3>
+                <h3 className="text-2xl font-semibold">You&apos;re on the list!</h3>
                 <p className="text-muted-foreground text-center">
-                  We've sent a confirmation email to <strong>{email}</strong>
+                  We&apos;ve sent a confirmation email to <strong>{email}</strong>
                 </p>
               </div>
             ) : (

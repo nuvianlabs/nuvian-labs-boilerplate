@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Question or Discussion
+    url: https://github.com/nuvian-labs/nuvian-labs-boilerplate/discussions
+    about: Please ask questions in GitHub Discussions
+  - name: Security Issue
+    url: https://github.com/nuvian-labs/nuvian-labs-boilerplate/security/advisories/new
+    about: Please report security vulnerabilities privately

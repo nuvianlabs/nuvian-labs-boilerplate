@@ -69,7 +69,7 @@ export default function HomePage() {
           {/* What's Included */}
           <Card className="w-full max-w-3xl mt-16">
             <CardHeader>
-              <CardTitle>What's Included</CardTitle>
+              <CardTitle>What&apos;s Included</CardTitle>
               <CardDescription>Everything you need to build a modern web application</CardDescription>
             </CardHeader>
             <CardContent className="grid gap-4 md:grid-cols-2">

@@ -7,6 +7,8 @@ import { Badge } from "@/components/ui/badge"
 import { CheckCircle2, XCircle, Circle, ArrowRight, ExternalLink, RefreshCw } from "lucide-react"
 import Link from "next/link"
 
+export const dynamic = 'force-dynamic'
+
 interface CheckItem {
   id: string
   name: string
